@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shipping Lanes — 3D Globe</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="app"></div>
+
+  <div class="hud">
+    <div class="title">Shipping Lanes</div>
+    <div class="subtitle">3D World Globe</div>
+  </div>
+
+  <div class="help">
+    <div><b>Sürükle</b> — küreyi döndür</div>
+    <div><b>Scroll / pinch</b> — zoom</div>
+    <button id="resetBtn">Görünümü sıfırla</button>
+  </div>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
