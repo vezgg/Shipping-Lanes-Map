@@ -1,4 +1,4 @@
-# Shipping Lanes — 3D Globe
+# Shipping Lanes 3D World Map
 
 Browser'da çalışan döndürülebilir 3D Shipping Lanes küresi.
 
